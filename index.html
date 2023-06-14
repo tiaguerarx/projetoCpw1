@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas Líder: sua solução em ferramentas!</title>
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+    <style>
+        body {
+            font-family: "Audiowide", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="Images/Logomarca.png" alt="Logo da empresa">
+
+        <div>
+            <h1>FERRAMENTAS LÍDER®</h1>
+            <p>"Sua solução em ferramentas"</p>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="eletrica.html">ELÉTRICA</a>
+        <a href="#">JARDIM</a>
+        <a href="#">TRABALHOS MANUAIS</a>
+        <a class="quemSomos" href="#">QUEM SOMOS</a>
+    </div>
+
+    <div class="carousel">
+
+        <div class="slider">
+
+            <!-- Botões do carrossel -->
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- Imagens do carrossel -->
+                <div class="slide first">
+                    <img src="Images/motosserra.png" alt="imagem da motosserra">
+
+                    <div class="promocao">
+                        <h2>MOTOSSERRA <br> MAKITA</h2>
+                        <p style="font-size: 25px; color: black; text-decoration: line-through;">de R$1250,90</p>
+                        <p>por R$1139,90</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="Images/serrote.png" alt="imagem do serrote">
+
+                    <div class="promocao">
+                        <h2>SERROTE <br>GUEPAR</h2>
+                        <p style="font-size: 25px; color: black; text-decoration: line-through;">de R$59,90</p>
+                        <p>por R$45,90</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="Images/caixa.png" alt="imagem do jogo de ferramentas.">
+                    <div class="promocao">
+                        <h2>JOGO DE <br>FERRAMENTAS</h2>
+                        <p style="font-size: 25px; color: black; text-decoration: line-through;">de R$299,90</p>
+                        <p>por R$269,90</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="Images/motor.png" alt="imagem do motor">
+                    <div class="promocao">
+                        <h2>ESMERIL <br>RAZI</h2>
+                        <p style="font-size: 25px; color: black; text-decoration: line-through;">de R$387,90</p>
+                        <p>por R$327,90</p>
+                    </div>
+                </div>
+                <!-- Navegação automática -->
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <section>
+
+            <article class="article">
+
+                <img src="Images/martelo.png" usemap="#image_map" width="200px" height="200px">
+
+                <!-- Map link para a área clicável do produto, que leva para a página específica dele -->
+                <map name="image_map">
+                    <area alt="martelo" title="martelo em aço INOX 27mm TRAMONTINA cabo emborrachado" target="_blank"
+                        href="martelo.html" shape="default">
+                </map>
+
+                <h2>Martelo em Aço <br> INOX 27mm</h2>
+                <p class="descricao"><span class="valor">R$</span>32,90</p>
+                <p>*Desconto de 5% no boleto bancário ou PIX</p>
+                <p>OU no cartão 1X de 33,99</p>
+
+                <!-- Botão de compra que também leva para a página específica do produto -->
+                <button class="button">
+
+                    <a href="martelo.html" target="_blank">
+                        <h3>COMPRAR</h3>
+                    </a>
+
+                </button>
+
+            </article>
+
+            <article class="article">
+                <img src="Images/compressor.png" alt="imagem do produto">
+                <span class="desconto">
+                    <p>-6%</p>
+
+                </span>
+                <h2>Compressor de ar 220/380V</h2>
+                <p class="descricao"><span class="valor">R$</span>4999,99</p>
+                <p>*Desconto de 10% no boleto bancário ou PIX</p>
+                <p>OU no cartão 6x de 850,90</p>
+
+                <button class="button">
+                    <h3>COMPRAR</h3>
+                </button>
+
+            </article>
+
+            <article class="article">
+                <img src="Images/arame.png" alt="imagem do produto">
+                <h2>Arame INOX 1,37mm galvanizado</h2>
+                <p class="descricao"><span class="valor">R$</span>139,90</p>
+                <p>*Desconto de 5% no boleto bancário ou PIX</p>
+                <p>OU no cartão 2x de R$71,95</p>
+
+                <button class="button">
+                    <h3>COMPRAR</h2>
+                </button>
+
+            </article>
+
+            <article class="article">
+                <img src="Images/grampeador.png" alt="imagem do produto">
+                <h2>Grampeador manual</h2>
+                <p class="descricao"><span class="valor">R$</span>79,99</p>
+                <p>*Desconto de 5% no boleto bancário ou PIX</p>
+                <p>OU no cartão 1X de R$81,99</p>
+
+
+                <button class="button">
+                    <h3>COMPRAR</h3>
+                    <a href="index.html"></a>
+                </button>
+
+            </article>
+
+            <article class="article">
+                <img src="Images/oculos.png" alt="imagem do produto">
+                <h2>Óculos de segurança</h2>
+                <p class="descricao"><span class="valor">R$</span>5,39</p>
+                <p>*Desconto de 1% no boleto bancário ou PIX</p>
+                <p>OU no cartão 1X de R$6,59</p>
+
+                <button class="button">
+                    <h3>COMPRAR</h2>
+                </button>
+
+            </article>
+
+            <article class="article">
+                <img src="Images/carrinho.png" alt="imagem do produto">
+                <h2>Carrinho de ferramentas</h2>
+                <p class="descricao"><span class="valor">R$</span>1756,55</p>
+                <p>*Desconto de 8% no boleto bancário ou PIX</p>
+                <p>OU no cartão 5x de R$400,00</p>
+
+                <button class="button">
+                    <h3>COMPRAR</h3>
+                </button>
+
+            </article>
+
+        </section>
+
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+
+</body>
+
+</html>
