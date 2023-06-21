@@ -201,15 +201,15 @@ body {
 
 .content {
     text-align: center;
-    height: 1300px;
     justify-content: center;
     display: flex;
 }
 
 .footer {
     background-color: rgb(37, 116, 73);
-    padding: 100px;
-    text-align: center;
+    height: 200px;
+    
+    
 }
 
 p .valor {
