@@ -51,15 +51,15 @@ h1 {
 
 .content {
     text-align: center;
-    height: 1300px;
     justify-content: center;
     display: flex;
-
-
 }
 
+
+
+
 .footer {
-    background-color:rgb(51, 204, 51);
+    background-color: rgb(51, 204, 51);
     padding: 200px;
     text-align: center;
 }
