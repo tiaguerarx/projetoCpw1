@@ -61,7 +61,15 @@ body {
     font-size: 100%;
     vertical-align: baseline;
     background-color: rgb(240, 240, 240);
+    background-image: url(/Images/shop_background.jpg);
+    
 }
+
+body img {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 .content {
     margin-top: 50px;
